@@ -1,37 +1,58 @@
+
 .invisivel{
     display:none;
   }
   .visivel{
     display:inline;
   }
+  body{
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/fundo\ helmo.avif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 1px 1px 3px #000;
+}
+  #texto{
+    font-size: 30px;
+    color: #ffffff; 
+   font-family: 'pixelify sans';
+    text-shadow: 1px 1px 3px #000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
   .inicial {
     text-align: center;
     font-size: 100px;
-    background-color: lightgrey;
+    background-color: rgb(211, 211, 211);
     width: 150px;
     height: 200px;
-    border: 15px solid green;
+    border: 15px solid rgb(34, 35, 34);
     padding: 10px;
     margin: 20px;
   }
   .acertou {
     text-align: center;
-    color: yellow;
-    background-color: LawnGreen;
+    color: rgb(197, 201, 204);
+    background-color: rgb(197, 201, 204);
     width: 150px;
     height: 200px;
-    border: 15px solid yellow;
+    border: 15px solid rgb(21, 173, 21);
     padding: 10px;
     margin: 20px;
   }
   .errou {
     text-align: center;
-    font-size: 100px;
     color: white;
-    background-color: red;
+    background-color: rgb(255, 255, 255);
     width: 150px;
     height: 200px;
-    border: 15px solid black;
+    border: 15px solid rgb(255, 2, 2);
     padding: 10px;
     margin: 20px;
   }
+ 
